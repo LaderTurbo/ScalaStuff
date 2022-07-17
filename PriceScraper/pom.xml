@@ -20,9 +20,44 @@
         <!-- https://mvnrepository.com/artifact/net.ruippeixotog/scala-scraper -->
         <dependency>
             <groupId>net.ruippeixotog</groupId>
-            <artifactId>scala-scraper_3</artifactId>
-            <version>3.0.0</version>
+            <artifactId>scala-scraper_2.13</artifactId>
+            <version>2.2.1</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.4.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.typesafe.slick/slick -->
+        <dependency>
+            <groupId>com.typesafe.slick</groupId>
+            <artifactId>slick_2.13</artifactId>
+            <version>3.3.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.typesafe</groupId>
+            <artifactId>config</artifactId>
+            <version>1.4.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.zaxxer/HikariCP -->
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>5.0.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.typesafe.play/play-slick-evolutions -->
+        <dependency>
+            <groupId>com.typesafe.play</groupId>
+            <artifactId>play-slick-evolutions_2.13</artifactId>
+            <version>5.0.2</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.typesafe.play/play-slick -->
+
+
+
 
     </dependencies>
 
